@@ -1,0 +1,43 @@
+/* Estilos para el contenedor del carrusel */
+.carousel-container {
+    width: calc(100% - 20px); /* Ajusta el ancho del carrusel con un margen total de 20px */
+    margin: 20px auto; /* Mantiene el margen superior e inferior de 20px y centra el carrusel */
+    overflow: hidden;
+    position: relative;
+    max-height: 450px; /* Altura máxima del carrusel */
+  }
+  
+  /* Estilos para las imágenes del carrusel */
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-slide img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+  }
+  
+  /* Estilos para los botones de navegación */
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a28300; /* Color de las flechas */
+    background-color: transparent; /* Fondo transparente para los botones */
+    border: none;
+    cursor: pointer;
+    font-size: 80px; /* Aumenta el tamaño de la fuente para las flechas */
+    line-height: 1; /* Ajusta la altura de línea para centrar verticalmente */
+    z-index: 10;
+  }
+  
+  .prev-btn {
+    left: 10px; /* Ajusta el margen izquierdo a 10px */
+  }
+  
+  .next-btn {
+    right: 10px; /* Ajusta el margen derecho a 10px */
+  }
+  

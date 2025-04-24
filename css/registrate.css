@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Controla el ancho máximo del contenedor */
+}
+
+.field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.field-container label {
+    margin-bottom: 0;
+    flex: 0 0 50%; /* Asigna un ancho fijo del 50% y no permite crecer o encoger */
+    padding-right: 2px; /* Espacio reducido entre la etiqueta y el campo de texto */
+}
+
+.field-container input,
+.field-container select {
+    flex: 0 0 50%; /* Asigna un ancho fijo del 60% y no permite crecer o encoger */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #1cc261;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

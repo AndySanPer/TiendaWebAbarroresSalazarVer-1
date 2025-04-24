@@ -1,0 +1,157 @@
+.producto-detallado{
+    display: flex;
+    justify-content: space-between;
+
+    height: 600px;
+    
+}
+
+.imagen2{
+    margin-left: 80px;
+    width: 100%; 
+    height: auto;
+    transition: filter 0.3s ease;  
+   
+}
+.imagen2:hover{
+    filter: brightness(0.8); 
+}
+
+.imagen{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.divizquierdo{
+    margin-left: 100px;
+    border: none;
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(255, 245, 247);
+    border-radius: 30px 30px 30px 30px;
+    
+    
+}
+
+.boton{
+    margin-top: 20px;
+    border: none;
+    background-color:chartreuse ;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius:  20px 20px 20px 20px;
+    width: 200px;
+    height:50px ;
+    
+}
+.boton:hover{
+    background-color: darkorange;
+}
+
+.nombreproducto{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divderecho{
+    width: 500px;
+    border-color: darkgrey;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: rgb(253, 251, 251);
+    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+
+}
+
+
+
+.precio{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: darkorange;
+    color: white;
+    border-radius: 30px 30px 0px 0px;
+    width: 492px;
+    height: 50px;
+    text-align: center;
+}
+
+.descrip{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.divabajo{
+    margin-top: 40px;
+    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    margin-left: 150px;
+
+}
+
+.divpuntuacionbarras{
+   width: 500px; 
+}
+
+.cali{
+    display: flex;
+    justify-content: space-between;
+}
+.puntos{
+    margin-left: 50px;
+}
+
+.divpuntuacionbarras{
+    margin-right: 400px;
+    width: 800px;
+}
+
+.opi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.califi{
+    margin-right: 700px;
+    width: 700px;
+    margin-left: 30px;
+}
+.titulocali{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.radioc{
+    margin-right: 10px;
+}
+
+.etinum{
+    margin-right: 10px;
+}
+
+.botonopi{
+    width: 100px;
+  
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+.btnopi{
+    width: 150px;
+    height: 30px;
+    color: black;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

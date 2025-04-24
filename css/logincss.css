@@ -1,0 +1,69 @@
+.contenedor {
+    border: black; /* Asegurarse de especificar el tipo de borde */
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinear todos los elementos al centro verticalmente */
+}
+
+.editimagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.divetiquetas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinear al centro verticalmente */
+    margin-bottom: 10px;
+    width: 100%; /* Ajustar el ancho para ocupar todo el contenedor */
+}
+
+.incorreo, .incontraseña {
+    width: calc(70% - 20px); /* Ajustar el ancho con padding */
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d1ceb6;
+    color: #203e10;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px; /* Espacio entre la etiqueta y el input */
+}
+
+.eticontraseña, .eticorreo {
+    color: #203e10;
+}
+
+.botones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnenviar {
+    background-color: #203e10;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btnenviar:hover {
+    background-color: #a28301;
+}

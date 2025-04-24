@@ -1,0 +1,72 @@
+/* Estilos para el menú de navegación */
+.navbar {
+    padding: 10px 0; /* Aumentamos el padding para ajustar la altura del navbar */
+    background-color: #a28300; /* Color de fondo del navbar */
+    margin-bottom: 0; /* Elimina cualquier margen inferior */
+    height: 90px; /* Ajustamos la altura del navbar */
+}
+
+.navbar-brand {
+    margin-top: 15px; /* Margen superior para separar el logo del borde superior del navbar */
+    margin-bottom: 15px; /* Margen inferior para separar el logo del borde inferior del navbar */
+}
+
+.navbar-brand img {
+    border-radius: 50%; /* Bordes redondeados para el logo */
+    height: 60px; /* Ajustamos la altura del logo */
+    width: 60px; /* Ajustamos el ancho del logo */
+}
+
+.navbar-nav {
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier padding */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Color de texto para los enlaces */
+    font-family: 'Baskerville'; /* Fuente de texto */
+    font-size: 22px; /* Tamaño de fuente */
+    line-height: 90px; /* Ajuste de altura igual a la altura del navbar */
+    transition: color 0.3s, background-color 0.3s; /* Transición suave */
+    padding-top: 0; /* Elimina cualquier padding superior */
+    padding-bottom: 0; /* Elimina cualquier padding inferior */
+    height: 90px; /* Ajustamos la altura del nav-link */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a28300; /* Cambio de color de texto al pasar el ratón */
+    background-color: #ffffff; /* Cambio de color de fondo al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambio de color de texto para el enlace "Inicio" */
+.navbar-nav .nav-link.active {
+    color: #ffffff; /* Color de texto blanco */
+}
+
+.navbar-toggler {
+    border: none; /* Sin borde para el botón del toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Color del ícono del toggler */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Sin contorno al enfocar el toggler */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    background-color: #ffffff !important; /* Color de fondo original */
+}
+
+.dropdown-item {
+    color: #a28300; /* Color de texto original */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+.dropdown-item:hover {
+    background-color: #a28300 !important; /* Cambio de color de fondo al pasar el ratón */
+    color: #ffffff; /* Cambio de color de texto al pasar el ratón */
+}

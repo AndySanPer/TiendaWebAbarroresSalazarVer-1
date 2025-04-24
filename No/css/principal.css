@@ -1,0 +1,127 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body {
+  background: #263c53;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  word-wrap: break-word !important;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #FFF;
+}
+
+#container {
+  margin: 0 auto;
+  display: flex;
+}
+
+p {
+  text-align: center;
+}
+
+nav {
+  margin: 30px auto;
+  background-color: #333;
+  height: 80px; /* Altura del menú */
+}
+
+.logo-container {
+  margin-left: 20px; /* Ajusta el margen izquierdo según tu preferencia */
+  height: 60px; /* Altura de la imagen */
+  display: inline-block;
+  vertical-align: middle; /* Alinea verticalmente el contenedor */
+}
+
+.logo-container img {
+  height: 60px; /* Altura de la imagen */
+  width: 60px; /* Anchura de la imagen */
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  position: relative;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  background-color: #333;
+  padding: 0 10px; /* Ajusta el espaciado horizontal */
+}
+
+nav a {
+  display: block;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 80px; /* Ajusta la altura del menú */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+/* Ocultar Dropdowns por Defecto */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 80px; /* la altura del menú principal */
+  text-align: left;
+}
+
+/* Mostrar Dropdowns al pasar el mouse */
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+/* Primer Nivel del Dropdown */
+nav ul ul li {
+  width: 170px;
+  display: list-item;
+}
+
+/* Segundo, Tercer Nivel y más */
+nav ul ul ul li {
+  position: relative;
+  top: -80px;
+  left: 170px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  margin: -7px 0 0px 7px;
+  vertical-align: middle;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

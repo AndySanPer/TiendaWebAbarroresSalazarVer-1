@@ -1,0 +1,56 @@
+footer {
+    background-color: #a28300; /* Cambia el color según tu diseño */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-categories {
+    display: flex;
+    justify-content: space-around; /* Distribuye las imágenes equitativamente */
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho de la pantalla */
+}
+
+.footer-link {
+    flex: 1 1 0px; /* Crecen y encogen pero con base de cero para igual distribución */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%; /* Mantiene las imágenes circulares */
+    padding: 5px; /* Espacio entre imágenes */
+    transition: transform 0.3s, box-shadow 0.3s; /* Suaviza la transición de los efectos */
+}
+
+.footer-link img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen al cambiar de tamaño */
+    border-radius: 50%; /* Para mantener la forma circular */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área */
+    transition: transform 0.3s; /* Suaviza la transición de la transformación */
+}
+
+.footer-link span {
+    position: absolute;
+    bottom: 10%; /* Ajusta la posición del texto */
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8); /* Mejora la legibilidad */
+}
+
+.footer-link:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+    opacity: 0.8; /* Disminuye la opacidad */
+}
+
+.footer-link:hover {
+    box-shadow: 0 0 20px rgba(255,255,255,0.5); /* Añade un sombreado ligero alrededor de la imagen */
+}
